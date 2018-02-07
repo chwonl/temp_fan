@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 
-# Innentemperatur auslesen
+# Getting inside temperature
 
 def get_temp_in():
       
@@ -20,7 +20,7 @@ def get_temp_in():
     rueckgabewert = '%6.2f' % temperature 
     return(rueckgabewert)
 
-# Aussentemperatur auslesen
+# Getting outside temperature
 
 def get_temp_out():
       
